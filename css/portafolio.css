@@ -1,0 +1,94 @@
+body{
+    color: #868e96;
+    padding-top: 56px;
+    position: relative;
+    font-family: 'Open Sans',serif;
+}
+.text-primary, .container-fluid a{
+    color: #3f51b5 !important;
+}
+.bg-primary{
+    background-color: #3f51b5 !important
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Saira Extra Condensed',serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+}
+h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+}
+h2 {
+    font-size: 3rem;
+}
+.perfil img{
+    max-width: 72%;
+    border-radius: 50%;
+    border: .5em solid #5c6bc0;;
+}
+.nav-link{
+    font-weight: 600;
+}
+section{
+    border-bottom: 1px solid #E0E0E0;
+}
+.subheading{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed',serif;
+    font-size: 1.35rem;
+}
+.fa-stack-2x {
+    font-size: 1em;
+}
+.list-social-icons a:hover{
+    color: #343a40 !important;
+}
+.list-habilidades-icons i{
+    font-size: 2.5em;
+}
+.list-seminarios-icons li{
+    font-size: 1.1em;
+}
+.flag{
+    color: #ff5353;
+}
+@media (max-width: 576px){
+    .list-social-icons a{
+        font-size: .85em;
+    }
+}
+@media (min-width: 768px){
+    h1 {
+        font-size: 6rem;
+        line-height: 5.5rem;
+    }
+    h2 {
+        font-size: 3.5rem;
+    }
+    section{
+        min-height: 100vh;
+    }
+}
+@media (min-width: 992px){
+    body {
+        padding-top: 0px;
+        padding-left: 17rem;
+    }
+    #navbar {
+        width: 17rem;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        text-align: center
+    }
+    #navegacion .navbar-nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
