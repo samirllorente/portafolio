@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /
+Allow: /sitemap.htm
+Disallow: /vendor
+Disallow: /css
+Disallow: /js
+Disallow: /img
+Disallow: /favicon
+Sitemap: /sitemap.xml
