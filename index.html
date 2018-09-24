@@ -5,9 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>Portafolio - Samir Llorente</title>
+	  <meta name="description" content="Aqu&iacute; podr&aacute;s encontrar datos de m&iacute; y poder conocer un poco mas sobre mi trabajo." />
+	  <meta name="keywords" content="Samir Llorente, Samir Andres Llorente Naranjo, Portafolio" />
+    <meta name="author" content="Samir Llorente" />
+
     <!-- Theme Color-->
     <meta name="theme-color" content="#3f51b5">
-    <title>Portafolio - Samir Llorente</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#2b74a1">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Samir Llorente">
+    <meta name="application-name" content="Samir Llorente">
+    <meta name="msapplication-TileColor" content="#2b74a1">
+    <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+
+    <!-- Social Metadata-->
+    <meta property="og:image" content="/img/yo.jpg">
+    <meta property="og:image:width" content="279">
+    <meta property="og:image:height" content="279">
+    <meta property="og:description" content="Aqu&iacute; podr&aacute;s encontrar datos de m&iacute; y poder conocer un poco mas sobre mi trabajo.">
+    <meta property="og:title" content="Samir Llorente - Portafolio">
+    <meta property="og:url" content="https://samirllorente.com">
 
     <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -19,7 +45,7 @@
     <!-- Estilo Devicon-->
     <link rel="stylesheet" type="text/css" href="vendor/devicon/devicon.min.css">
     <!-- Estilo portafolio -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/portafolio.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/portafolio.min.css" />
 </head>
 <body class="bg-light" id="top" data-spy="scroll" data-target="#navbar">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="navbar">
@@ -31,7 +57,7 @@
             <ul class="navbar-nav">
                 <li class="nav-item d-none d-lg-block mb-3">
                     <a class="nav-link perfil" href="#top">
-                        <img src="img/yo.jpg">
+                        <img src="img/yo.jpg" alt="Samir Llorente">
                     </a>
                 </li>
                 <li class="nav-item">
@@ -60,7 +86,7 @@
                 </h1>
                 <div class="subheading mb-5">
                     Manzana 9 Lote 13 · La Rivera, Montería, Córdoba, CO · (302) 280 0178 ·
-                    <a  href="mailto:samir_llorente@outlook.com"> samir_llorente@outlook.com</a>
+                    <a  href="mailto:admin@samirllorente.com"> admin@samirllorente.com</a>
                 </div>
                 <ul class="list-inline list-social-icons mb-0">
                     <li class="list-inline-item">
@@ -290,6 +316,14 @@
     <!-- Script FontAwesome -->
     <script src="vendor/fontawesome/js/all.js"></script>
     <!-- Script portafolio -->
-    <script src="js/portafolio.js"></script>
+    <script src="js/portafolio.min.js"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113824819-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-113824819-2');
+    </script>
 </body>
 </html>
