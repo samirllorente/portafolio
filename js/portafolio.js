@@ -8,4 +8,5 @@ $(document).ready(function() {
     $('#navegacion a').click(function() {
         $('.navbar-collapse').collapse('hide');
     });
+    $('[data-toggle="tooltip"]').tooltip();
 });
