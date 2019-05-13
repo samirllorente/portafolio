@@ -1,3 +1,6 @@
+*{
+    outline: none !important;
+}
 body{
     color: #868e96;
     padding-top: 56px;
@@ -54,6 +57,9 @@ section{
 }
 .flag{
     color: #ff5353;
+}
+.blur{
+    filter: blur(6px);
 }
 @media (max-width: 576px){
     .list-social-icons a{

@@ -48,7 +48,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/portafolio.min.css" />
 </head>
 <body class="bg-light" id="top" data-spy="scroll" data-target="#navbar">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top px-3" id="navbar">
         <a class="navbar-brand" href="#acercaDe">Portafolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegacion" aria-controls="navegacion" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
         <div class="collapse navbar-collapse" id="navegacion">
             <ul class="navbar-nav">
                 <li class="nav-item d-none d-lg-block mb-3">
-                    <a class="nav-link perfil" href="#top">
+                    <a class="nav-link perfil" href="#" data-toggle="modal" data-target="#zoomModal">
                         <img src="img/yo.jpg" alt="Samir Llorente">
                     </a>
                 </li>
@@ -320,6 +320,21 @@
                 </ul>
             </div>
         </section>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="zoomModal" tabindex="-1" role="dialog" aria-labelledby="zoomModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content border-0">
+                <div class="modal-header bg-primary border-0 p-1 pr-2">
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <img src="img/yoAmpliado.jpg" alt="Samir Llorente" class="img-fluid">
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Script JQuey -->
     <script src="vendor/jquery/jquery.min.js"></script>

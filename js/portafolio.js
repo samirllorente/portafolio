@@ -9,4 +9,11 @@ $(document).ready(function() {
         $('.navbar-collapse').collapse('hide');
     });
     $('[data-toggle="tooltip"]').tooltip();
+    $('#zoomModal').on('show.bs.modal', function (e) {
+        $('#navbar').addClass('blur');
+        $('.container-fluid').addClass('blur');
+    }).on('hide.bs.modal', function (e) {
+        $('#navbar').removeClass('blur');
+        $('.container-fluid').removeClass('blur');
+    });
 });
